@@ -4,7 +4,7 @@ echo 'Changing /usr/share/meteor/bundle/programs/server/assets/app/config/settin
 echo '================================================================================'
  
 sed -i 's/clientTitle:.*/clientTitle: EntrarLive/g' /usr/share/meteor/bundle/programs/server/assets/app/config/settings.yml
-sed -i 's/copyright:.*/copyright: "©2020 Entrar"/g' /usr/share/meteor/bundle/programs/server/assets/app/config/settings.yml
+sed -i 's/copyright:.*/copyright: "©2021 Entrar"/g' /usr/share/meteor/bundle/programs/server/assets/app/config/settings.yml
 sed -i 's/html5ClientBuild:.*/html5ClientBuild: 9/g' /usr/share/meteor/bundle/programs/server/assets/app/config/settings.yml
 sed -i 's/helpLink:.*/helpLink: https:\/\/entrar.in/g' /usr/share/meteor/bundle/programs/server/assets/app/config/settings.yml
 #Not working this currently
