@@ -8,7 +8,7 @@ echo $1
 echo $2
 wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | bash -s -- -w -a -v bionic-240 -s $1 -e $2
 git clone https://github.com/sasidhar-serv/bbb-install.git
-cd bbb-install-aws-change
+cd bbb-install
 cd support/
 chmod +x support.sh
 bash support.sh
