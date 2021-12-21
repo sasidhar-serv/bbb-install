@@ -14,6 +14,10 @@ sed -i 's/allowModsToUnmuteUsers=.*/allowModsToUnmuteUsers=true/g' /usr/share/bb
 echo 'bigbluebutton.web.logoutURL=www.entrar.in'
 sed -i 's/bigbluebutton.web.logoutURL=.*/bigbluebutton.web.logoutURL=www.entrar.in/g' /usr/share/bbb-web/WEB-INF/classes/bigbluebutton.properties
 echo 'bigbluebutton.web.logoutURL=www.entrar.in'
+echo 'allowDuplicateExtUserid=false'
+sed -i 's/allowDuplicateExtUserid=.*/allowDuplicateExtUserid=false/g' /usr/share/bbb-web/WEB-INF/classes/bigbluebutton.properties
+echo 'allowRequestsWithoutSession=false'
+sed -i 's/allowRequestsWithoutSession=.*/allowRequestsWithoutSession=false/g' /usr/share/bbb-web/WEB-INF/classes/bigbluebutton.properties
 echo 'bigbluebutton.properties changes are done'
 echo '=================================================================================================================================================================='
 
