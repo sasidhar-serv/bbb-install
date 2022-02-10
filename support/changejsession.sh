@@ -1,4 +1,4 @@
-#!bin/bash
+#!bin/sh
 #changing in bigbluebutton.properties
 echo '=================================================================================================================================================================='
 echo 'changing in bigbluebutton.properties'
