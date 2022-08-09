@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt update -Y
+sudo apt update -y
 sudo apt upgrade
 
 dns=$1
