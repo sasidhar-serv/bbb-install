@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo apt update
+sudo apt upgrade
 
 dns=$1
 email=$2
