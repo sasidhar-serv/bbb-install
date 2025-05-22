@@ -38,7 +38,10 @@ To install the latest build of BigBlueButton 2.3 on a new 64-bit Ubuntu 18.04 se
 ```
 wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | bash -s -- -w -a -v bionic-23 -s bbb.example.com -e info@example.com
 ```
-
+To install the latest build of BigBlueButton 2.7 on a new 64-bit Ubuntu 20.04 server use following.<br/>
+```
+wget -qO- https://raw.githubusercontent.com/bigbluebutton/bbb-install/v2.7.x-release/bbb-install.sh | bash -s -- -w -v focal-270 -s bbb.example.com -e info@example.com
+```
 
 
 This will take few min to complete, After completion you can run following command to get api-mate secrate key.
