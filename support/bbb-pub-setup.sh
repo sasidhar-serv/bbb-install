@@ -7,7 +7,7 @@ email=$2
 echo 'Setting up bbb for :'
 echo $1
 echo $2
-wget -qO- https://raw.githubusercontent.com/bigbluebutton/bbb-install/v3.0.x-release/bbb-install.sh | bash -s -- -w -v jammy-300 -s $1 -e $2
+wget -qO- https://raw.githubusercontent.com/bigbluebutton/bbb-install/v2.7.x-release/bbb-install.sh | bash -s -- -w -v focal-270 -s $1 -e $2
 
 git clone https://github.com/sasidhar-serv/bbb-install.git
 cd bbb-install
