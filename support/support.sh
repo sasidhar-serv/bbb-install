@@ -3,7 +3,7 @@
 chmod +x post.sh
 chmod +x post1.sh
 chmod +x post2.sh
-chmod +x psot3.sh
+chmod +x post3.sh
 bash post.sh
 bash post1.sh
 bash post2.sh
